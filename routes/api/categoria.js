@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const categoriaController = require('../controllers/CategoriaController');
+const categoriaController = require('../../controllers/CategoriaController');
 const auth = require('../../middlewares/auth');
 
 router.get('/list', categoriaController.list);
